@@ -1,4 +1,4 @@
-# Postgresql Replication in Docker
+# Postgresql Replication on Docker
 
 使用Docker建立Postgresql主從。
 # Getting Started
