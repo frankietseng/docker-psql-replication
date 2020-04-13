@@ -1,5 +1,4 @@
 #!/bin/bash
-#cp /home/stgsh/postgrest/* /var/lib/postgresql/data/
 mkdir -p $PGDATA/main/archive/
 chown -R postgres:postgres $PGDATA
 echo "host replication all 0.0.0.0/0 md5" >> "$PGDATA/pg_hba.conf"

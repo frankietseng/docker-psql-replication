@@ -1,6 +1,4 @@
 #!/bin/bash
-#rm -rf ${PGDATA}/*
-#if [ ! -s "$PGDATA" ]; then
 if [ -s "$PGDATA" ]; then
 echo "*:*:*:$PG_REP_USER:$PG_REP_PASSWORD" > ~/.pgpass
 chmod 0600 ~/.pgpass
